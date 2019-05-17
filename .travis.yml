@@ -10,8 +10,4 @@ install:
 
 # Run the unit test
 script:
-  - coverage run tests.py
-
-# Push the results back to codecov
-after_success:
-  - codecov
+  - python3 run tests.py
