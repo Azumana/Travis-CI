@@ -9,4 +9,4 @@ python: 3.6
 
 # Run the unit test
 script:
-  - python3 tests.py
+  - pytest
