@@ -1,4 +1,7 @@
 language: python
+install:
+  - bundle install --path vendor/bundle
+  - npm install
 rvm:
  - 2.2
  - jruby
